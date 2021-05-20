@@ -95,7 +95,7 @@ class Grass(commands.Cog):
     def gen_touchgrass(self, ctx, member_avatar):
         member_avatar = self.bytes_to_image(member_avatar, 156)
         # base canvas
-        im = Image.new("RGBA", (290, 272), None)
+        im = Image.new("RGBA", (620, 483), None)
         # touchgrass = Image.open(f"{bundled_data_path(self)}/touchgrass/touchgrass.png", mode="r").convert("RGBA")
         touchgrassmask = Image.open(f"{bundled_data_path(self)}/touchgrass/touchgrassmask.png", mode="r").convert(
             "RGBA"
