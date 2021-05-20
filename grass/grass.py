@@ -58,7 +58,7 @@ class Grass(commands.Cog):
 
     @checks.bot_has_permissions(attach_files=True)
     @commands.cooldown(1, 10, commands.BucketType.user)
-    @commands.command(aliases=["catgirl"], cooldown_after_parsing=True)
+    @commands.command(aliases=["grassytouch"], cooldown_after_parsing=True)
     async def touchgrass(self, ctx, *, member: FuzzyMember = None):
         """Make them touch grass..."""
         if not member:
@@ -115,3 +115,4 @@ class Grass(commands.Cog):
         _file = discord.File(fp, "touchgrass.png")
         fp.close()
         return _file
+
