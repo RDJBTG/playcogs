@@ -103,7 +103,7 @@ class Grass(commands.Cog):
         # im.paste(touchgrass, (0, 0), touchgrass)
 
         # pasting the pfp
-        im.paste(member_avatar, (620, 483), member_avatar)
+        im.paste(member_avatar, (251, 36), member_avatar)
         im.paste(touchgrassmask, (0, 0), touchgrassmask)
         touchgrassmask.close()
         member_avatar.close()
